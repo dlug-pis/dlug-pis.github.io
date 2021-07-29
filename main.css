@@ -19,7 +19,7 @@ h1 {
 }
 .scroll-this-way {
   align-self: flex-end;
-  width: 550px;
+  width: 350px;
   height: 165px;
   position: absolute;
   right: 0;
@@ -819,4 +819,7 @@ h1 {
   .instructions {
     display: none;
   }
+}
+.medical-chart {
+  text-align: center;
 }
