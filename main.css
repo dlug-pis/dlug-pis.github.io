@@ -19,7 +19,7 @@ h1 {
 }
 .scroll-this-way {
   align-self: flex-end;
-  width: 360px;
+  width: 550px;
   height: 165px;
   position: absolute;
   right: 0;
@@ -140,15 +140,6 @@ h1 {
   flex-basis: 110px;
   position: static;
 }
-.four-hundred .wealth > .wealth-title {
-  flex-basis: 420px;
-}
-.four-hundred .infobox.intro {
-  margin-left: 0;
-  position: relative;
-  width: auto;
-  width: 10000px;
-}
 .wealth > .wealth-title {
   flex-basis: 1%;
   padding: 10px;
@@ -165,6 +156,10 @@ h1 {
   margin-bottom: 5px;
   color: black;
   margin-top: 0;
+}
+.middle{
+  margin-top: 50%;
+  margin-bottom: auto;
 }
 .text-infobox .title,
 .infobox .chart {
@@ -276,8 +271,8 @@ h1 {
   width: 320px;
 }
 .median .wealth {
-  width: 7.94px;
-  height: 7.94px;
+  width: 8.09px;
+  height: 8.09px;
 }
 .explainer {
   font-size: 16px;
@@ -301,16 +296,10 @@ h1 {
     border-bottom: 3px dotted #007fb7;
   }
 }
-.bezos .wealth {
-  width: 370000px;
+.debt .wealth {
+  width: 580000px;
   height: 500px;
   background-color: orange;
-}
-.four-hundred .wealth {
-  margin-left: 100px;
-  width: 6401200px;
-  height: 500px;
-  background-color: #03A9F4;
 }
 .ruler {
   background-image: url('img/ruler.svg');
@@ -330,7 +319,7 @@ h1 {
 .key > span {
   display: inline-block;
 }
-.bezos .key > span {
+.debt .key > span {
   background-color: orange;
 }
 .four-hundred .key > span {
@@ -349,389 +338,427 @@ h1 {
   min-width: 140px;
 }
 .lifetime .square {
-  width: 41.23px;
-  height: 41.23px;
-  background-color: blue;
+  width: 46.9px;
+  height: 46.9px;
+  background-color: rgb(217, 255, 0);
 }
-.healthcare .square {
-  width: 4.96px;
-  height: 4.96px;
-  background-color: blue;
+.priciest-medicine .square {
+  width: 94.87px;
+  height: 94.87px;
+  background-color: rgb(0, 255, 213);
 }
-.amazon-year .square {
-  width: 5.4px;
-  height: 5.4px;
-  background-color: blue;
+.sasin .square {
+  width: 275.68px;
+  height: 275.68px;
+  background-color: rgba(225, 0, 255, 0.63);
 }
-.year-veteran .square {
+.szumowski .square {
+  width: 500px;
   height: 400px;
-  width: 1186px;
-  margin-top: 5px;
-  background-color: #8BC34A;
+  background-color: rgb(238, 128, 65);
 }
-.year-veteran .title {
-  width: auto;
-  padding: 10px;
-  max-width: 380px;
-  left: 0;
-}
-.year-veteran .square {
-  position: static;
-}
-@media (max-width: 450px) {
- .year-veteran .title {
-   max-width: 210px;
- }
- .year-veteran .square {
-   border-bottom: 4px dashed #75a23e;
- }
-}
-.year-chemo {
+
+.zrzutka {
   width: auto;
 }
-.year-chemo .square {
+.zrzutka .square {
   height: 400px;
-  width: 22500px;
-  background-color: #03A9F4;
-  border: 5px dashed #0078af;
+  width: 1242x;
+  background-color: #d270ff;
+  border: 5px dashed #9b00af;
   box-sizing: border-box;
 }
-.year-chemo .square .title {
+.zrzutka .square .title {
   padding: 10px;
   position: sticky;
   left: 1px;
   display: inline-block;
 }
-.year-chemo .key {
+.zrzutka .key {
   top: 310px;
 }
-.year-chemo .key > span {
+.zrzutka .key > span {
   background-color: #03A9F4;
 }
+
+.psychiatry {
+  width: auto;
+}
+.psychiatry .square {
+  height: 400px;
+  width: 1260x;
+  background-color: #03A9F4;
+  border: 5px dashed #0078af;
+  box-sizing: border-box;
+}
+.psychiatry .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.psychiatry .key {
+  top: 310px;
+}
+.psychiatry .key > span {
+  background-color: #03A9F4;
+}
+
+.laptop {
+  width: auto;
+}
+.laptop .square {
+  height: 400px;
+  width: 1444x;
+  background-color: #8648f8;
+  border: 5px dashed #5200af;
+  box-sizing: border-box;
+}
+.laptop .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.laptop .key {
+  top: 310px;
+}
+.laptop .key > span {
+  background-color: #03A9F4;
+}
+
+.a2 {
+  width: auto;
+}
+.a2 .square {
+  height: 400px;
+  width: 1444x;
+  background-color: #c0f403;
+  border: 5px dashed #6caf00;
+  box-sizing: border-box;
+}
+.a2 .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.a2 .key {
+  top: 310px;
+}
+.a2 .key > span {
+  background-color: #03A9F4;
+}
+
+.wosp {
+  width: auto;
+}
+.wosp .square {
+  height: 400px;
+  width: 3750px;
+  background-color: #03A9F4;
+  border: 5px dashed #0078af;
+  box-sizing: border-box;
+}
+.wosp .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.wosp .key {
+  top: 310px;
+}
+.wosp .key > span {
+  background-color: #03A9F4;
+}
+
+.dentistry {
+  width: auto;
+}
+.dentistry .square {
+  height: 400px;
+  width: 4777px;
+  background-color: #ff6e9a;
+  border: 5px dashed #af0066;
+  box-sizing: border-box;
+}
+.dentistry .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.dentistry .key {
+  top: 310px;
+}
+.dentistry .key > span {
+  background-color: #03A9F4;
+}
+
+.stadium {
+  width: auto;
+}
+.stadium .square {
+  height: 400px;
+  width: 4940px;
+  background-color: #aaffff;
+  border: 5px dashed #00a9af;
+  box-sizing: border-box;
+}
+.stadium .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.stadium .key {
+  top: 310px;
+}
+.stadium .key > span {
+  background-color: #03A9F4;
+}
+
+.orlik {
+  width: auto;
+}
+.orlik .square {
+  height: 400px;
+  width: 6192px;
+  background-color: #90ff86;
+  border: 5px dashed #37af00;
+  box-sizing: border-box;
+}
+.orlik .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.orlik .key {
+  top: 310px;
+}
+.orlik .key > span {
+  background-color: #03A9F4;
+}
+
+.pit {
+  width: auto;
+}
+.pit .square {
+  height: 400px;
+  width: 6250px;
+  background-color: #03A9F4;
+  border: 5px dashed #0078af;
+  box-sizing: border-box;
+}
+.pit .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.pit .key {
+  top: 310px;
+}
+.pit .key > span {
+  background-color: #03A9F4;
+}
+
+.clean-air {
+  width: auto;
+}
+.clean-air .square {
+  height: 400px;
+  width: 9463px;
+  background-color: #8648f8;
+  border: 5px dashed #5200af;
+  box-sizing: border-box;
+}
+.clean-air .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.clean-air .key {
+  top: 310px;
+}
+.clean-air .key > span {
+  background-color: #03A9F4;
+}
+
+.doctor-edu {
+  width: auto;
+}
+.doctor-edu .square {
+  height: 400px;
+  width: 12500px;
+  background-color: #03A9F4;
+  border: 5px dashed #0078af;
+  box-sizing: border-box;
+}
+.doctor-edu .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.doctor-edu .key {
+  top: 310px;
+}
+.doctor-edu .key > span {
+  background-color: #03A9F4;
+}
+
+.metro {
+  width: auto;
+}
+.metro .square {
+  height: 400px;
+  width: 14615px;
+  background-color: #c0f403;
+  border: 5px dashed #6caf00;
+  box-sizing: border-box;
+}
+.metro .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.metro .key {
+  top: 310px;
+}
+.metro .key > span {
+  background-color: #03A9F4;
+}
+
+.mars {
+  width: auto;
+}
+.mars .square {
+  height: 400px;
+  width: 23280px;
+  background-color: #ff6e9a;
+  border: 5px dashed #af0066;
+  box-sizing: border-box;
+}
+.mars .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.mars .key {
+  top: 310px;
+}
+.mars .key > span {
+  background-color: #03A9F4;
+}
+
+.apartments {
+  width: auto;
+}
+.apartments .square {
+  height: 400px;
+  width: 62500px;
+  background-color: #aaffff;
+  border: 5px dashed #00a9af;
+  box-sizing: border-box;
+}
+.apartments .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.apartments .key {
+  top: 310px;
+}
+.apartments .key > span {
+  background-color: #03A9F4;
+}
+
+.gigafactory {
+  width: auto;
+}
+.gigafactory .square {
+  height: 400px;
+  width: 66416px;
+  background-color: #03A9F4;
+  border: 5px dashed #0078af;
+  box-sizing: border-box;
+}
+.gigafactory .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.gigafactory .key {
+  top: 310px;
+}
+.gigafactory .key > span {
+  background-color: #03A9F4;
+}
+
+.akcyza {
+  width: auto;
+}
+.akcyza .square {
+  height: 400px;
+  width: 82500px;
+  background-color: #c0f403;
+  border: 5px dashed #6caf00;
+  box-sizing: border-box;
+}
+.akcyza .square .title {
+  padding: 10px;
+  position: sticky;
+  left: 1px;
+  display: inline-block;
+}
+.akcyza .key {
+  top: 310px;
+}
+.akcyza .key > span {
+  background-color: #03A9F4;
+}
+
 .celebrities {
   display: flex;
   width: auto;
 }
-.beyonce .square {
+.lewandowski .square {
   height: 350px;
-  width: 1142px;
+  width: 1429px;
   background-color: #406994;
 }
-.goldman .square {
-  width: 223px;
-  height: 223px;
+.morawiecki .square {
+  width: 200px;
+  height: 200px;
   background-color: #64A8F0;
 }
-.tim-cook .square {
-  width: 1785px;
+.amber .square {
+  width: 2402px;
   height: 350px;
   background-color: #71889e;
 }
-.doctor .square {
-  width: 81.8px;
-  height: 81.8px;
+.pol-wealth .square {
+  width: 16px;
+  height: 16px;
   background-color: #0661b9;
 }
-.lawyer .square {
-  width: 63.2px;
-  height: 63.2px;
+.apartament .square {
+  width: 114px;
+  height: 114px;
   background-color: #00478a;
 }
-.hedgefund .square {
-  width: 289.8px;
-  height: 289.8px;
+.house .square {
+  width: 324px;
+  height: 324px;
   background-color: #9daebf;
-}
-.line-chart .chart-outer {
-  width: 720px;
-  max-width: 100vw;
-  text-align: center;
-}
-.line-chart .chart-inner {
-  height: 200px;
-  overflow: hidden;
-  margin-bottom: 5px;
-}
-.zoom.line-chart .chart-inner {
-  transition: box-shadow .8s;
-  box-shadow: inset 0 0 10px #00000042;
-}
-.zoom.line-chart svg {
-  transition: all 1.5s;
-  width: 940%;
-  height: auto;
-  margin-top: -102%;
-  margin-left: -20%;
-}
-@media (max-width: 450px) {
-  .line-chart .chart-inner .zero,
-  .line-chart .chart-inner .two-hundred-million,
-  .line-chart .chart-inner .zuck-name {
-    font-size: 28px;
-  }
-  .zuck-wealth {
-    font-size: 20px;
-  }
-  .line-chart .zero-outer {
-    transform: translate(160px, 356px);
-  }
-  .desktop-zuck {
-    display: none;
-  }
-  .zoom.line-chart svg {
-    width: 1200%;
-    margin-top: -120%;
-    margin-left: -16%;
-  }
-}
-@media (min-width: 451px) {
-  .mobile-zuck {
-    display: none;
-  }
-}
-.zoom-out,
-.zoom .zoom-in {
-  display: none;
-}
-.zoom .zoom-out {
-  display: inline;
-}
-.no-single-human {
-  margin-left: 18000px;
-}
-.no-single-human .title {
-  max-width: 390px;
-}
-.people {
-  background-image: url('img/person.svg');
-  background-size: 20px;
-}
-.people.first {
-  margin-top: -1040px;
-}
-.people-wrapper-outer h2 {
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  margin: 5px;
-}
-.people-wrapper {
-  width: 800px;
-  height: 400px;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-.four-hundred-people .people {
-  width: 800px;
-  height: 400px;
-}
-.sixty-percent-people .people {
-  width: 800px;
-  height: 1974000px;
-}
-.sixty-percent-people .people-wrapper {
-  box-shadow: inset 0 0 10px #000000;
-}
-.bubble {
-  border-radius: 10px;
-  font-weight: bold;
-  box-shadow: 4px 4px 5px;
-  font-size: 28px;
-  background-color: white;
-  text-align: center;
-  padding: 10px;
-}
-.people-label {
-  position: absolute;
-  top: 40%;
-  left: 39%;
-}
-.scroll-indicator {
-  position: absolute;
-  top: 40%;
-  left: 260px;
-  font-size: 18px;
-  max-width: 240px;
-}
-.people-sub-label {
-  font-weight: normal;
-  font-style: italic;
-  font-size: 14px;
-  margin-top: 4px;
-}
-.people-wrapper .percent {
-  background-color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-weight: bold;
-  display: inline-block;
-  border-radius: 10px;
-  box-shadow: 4px 4px 5px;
-  padding: 10px;
-  position: -webkit-sticky;
-  position: sticky;
-  margin-top: 1000px;
-  top: 160px;
-  margin-left: 350px;
-}
-@media (max-width: 450px) {
-  .people {
-    background-size: 10px;
-  }
-  .people-wrapper {
-    width: 200px;
-    height: 400px;
-  }
-  .four-hundred-people .people {
-      width: 200px;
-      height: 400px;
-  }
-  .sixty-percent-people .people {
-    width: 200px;
-    height: 1974000px;
-  }
-  .people-label {
-    left: 35px;
-    font-size: 20px;
-  }
-  .people-wrapper .percent {
-    margin-left: 66px;
-  }
-}
-.ninety-wrapper {
-  width: 590px;
-  max-width: 96vw;
-}
-.plane-wrapper {
-  width: 480px;
-  max-width: 96vw;
-}
-.ninety-wrapper img,
-.plane-wrapper img {
-  width: 100%;
-  height: auto;
-}
-.what-could-we-do.title {
-  width: 330px;
-  text-align: center;
-  font-size: 25px;
-  font-weight: bold;
-}
-.piechart {
-  position: relative;
-}
-.piechart .piechart-outer {
-  width: 300px;
-  height: 300px;
-  transform: rotate(-50deg);
-  background: yellowgreen;
-  border-radius: 50%;
-}
-.piechart .piechart-inner {
-  fill: yellowgreen;
-  stroke: #655;
-  stroke-width: 32;
-}
-@media (max-width: 450px) {
-  .piechart.piechart h2 {
-    font-size: 17px;
-  }
-}
-.point-zero-three-percent .piechart-inner {
-  stroke-dasharray: .03 100;
-}
-.two-point-seven-percent .piechart-inner {
-  stroke-dasharray: 2.7 100;
-}
-.three-percent .piechart-inner {
-  stroke-dasharray: 3 100;
-}
-.five-percent .piechart-inner {
-  stroke-dasharray: 5 100;
-}
-.five-point-three-percent .piechart-inner {
-  stroke-dasharray: 5.3 100;
-}
-.six-percent .piechart-inner {
-  stroke-dasharray: 6 100;
-}
-.seven-point-five-percent .piechart-inner {
-  stroke-dasharray: 7.5 100;
-}
-.six-percent .piechart-outer {
-  transform: rotate(-45deg);
-}
-.six-point-eight-percent .piechart-inner {
-  stroke-dasharray: 6.8 100;
-}
-.three-percent .piechart-outer,
-.two-point-five-percent .piechart-outer,
-.two-point-seven-percent .piechart-outer,
-.two-point-eight-percent .piechart-outer {
-  transform: rotate(-38deg);
-}
-.five-percent .piechart-outer,
-.four-percent .piechart-outer {
-  transform: rotate(-43deg);
-}
-.four-tenths-percent .piechart-outer {
-  transform: rotate(-34deg);
-}
-.seven-point-five-percent .piechart-outer,
-.six-point-three-percent .piechart-outer {
-  transform: rotate(-46deg);
-}
-.four-tenths-percent .piechart-inner {
-  stroke-dasharray: .4 100;
-}
-.two-point-five-percent .piechart-inner {
-  stroke-dasharray: 2.5 100;
-}
-.two-point-eight-percent .piechart-inner {
-  stroke-dasharray: 2.8 100;
-}
-.four-point-three-percent .piechart-inner {
-  stroke-dasharray: 4.3 100;
-}
-.six-point-three-percent .piechart-inner {
-  stroke-dasharray: 6.3 100;
-}
-.four-point-eight-percent .piechart-inner {
-  stroke-dasharray: 4.8 100;
-}
-.forty-percent .piechart-inner {
-  stroke-dasharray: 40 100;
-}
-.piechart .dotted-line {
-  position: absolute;
-  width: 80px;
-  height: 0;
-  top: 40px;
-  left: 270px;
-  border-top: 2px dashed black;
-  transform: rotate(-38deg);
-}
-.piechart .label {
-  position: absolute;
-  left: 347px;
-  top: -7px;
-  font-size: 24px;
-}
-.piechart h2 {
-  font-size: 20px;
-}
-@media (max-width: 450px) {
-  .piechart .label {
-    left: 277px;
-    top: 43px;
-    font-size: 18px;
-  }
-  .piechart .dotted-line {
-    display: none;
-  }
-}
-.piechart .description {
-  width: 300px;
-  text-align: center;
 }
 .about {
   visibility: hidden;
@@ -771,113 +798,7 @@ h1 {
   height: 95vh;
   width: 90vw;
 }
-.malaria .babies {
-  height: 8800320px;
-  background-size: 160px;
-  background-image: url(img/baby.svg);
-}
-.malaria .babies-wrapper {
-  box-shadow: inset 0 0 10px #00000042;
-  width: 800px;
-  height: 320px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-.baby-counter {
-  top: 127px;
-  position: sticky;
-  display: inline-block;
-  left: 350px;
-  margin-top: 1800px;
-}
-@media (max-width: 450px) {
-  .malaria .babies-wrapper {
-    max-width: 340px;
-    height: 340px;
-  }
-  .malaria .babies {
-    background-size: 68px;
-    height: 3740340px;
-  }
-  .scroll-indicator {
-    top: 38%;
-    left: 40px;
-  }
-  .baby-counter {
-    left: 135px;
-  }
-}
-.infectious {
-  display: flex;
-  align-items: center;
-}
-.ebola-bar {
-  max-width: 300px;
-}
-.ebola-bar .title {
-  max-width: 100%;
-}
-.ebola-bar .square {
-  height: 122px;
-  width: 122px;
-  background-color: #00bb42;
-}
-.corona-bar .title,
-.malaria-bar .title {
-  width: 100%;
-  max-width: 100%;
-  margin: 0;
-  text-align: center;
-}
-.malaria-bar .square {
-  height: 400px;
-  width: 1022px;
-  background-color: #66c35a;
-  display: flex;
-  box-sizing: border-box;
-  align-items: center;
-}
-.corona-bar .square {
-  height: 400px;
-  width: 500px;
-  background-color: green;
-  display: flex;
-  box-sizing: border-box;
-  align-items: center;
-}
-.corona-bar,
-.malaria-bar,
-.ebola-bar {
-  color: black;
-  margin: 50px;
-  padding: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-@media (max-width: 450px) {
-  h3 {
-    font-size: 14px;
-  }
-}
-.cares .chart {
-  text-align: center;
-}
-.worldchart-wrapper {
-  display: flex;
-}
-.worldchart {
-  text-align: center;
-  width: 320px;
-}
-.worldchart img {
-  max-width: 100%;
-}
-.worldchart-wrapper .description {
-  text-align: center;
-}
-.all-of-them .title {
-  width: 370px;
-}
+
 @media (max-width: 450px) {
   .all-of-them .title {
     width: 340px;
@@ -898,7 +819,4 @@ h1 {
   .instructions {
     display: none;
   }
-}
-.medical-chart {
-  text-align: center;
 }
